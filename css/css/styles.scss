@@ -1,0 +1,39 @@
+// ADDING VARIABLES
+$mainBackgroundColor: #212227;
+$primaryColor: #BDD4E7;
+$secondColor: #637074;
+$thirdColor: #8693AB;
+$fourthColor: #AAB9CF;
+$fifthColor: #6A8EAE;
+$sixthColor: #57A773;
+$firstFontSize: 18px;
+
+// STYLING BODY
+body{
+	background-color: $mainBackgroundColor;
+}
+// HEADING TAGS
+h1{
+	color: $secondColor;
+}
+
+h2{
+	color: $thirdColor;
+}
+
+h3{
+	color: $fourthColor;
+}
+
+h4{
+	color: $fifthColor;
+}
+
+h5{
+	color: $sixthColor;
+}
+// PTAGS
+p{
+	color: $primaryColor;
+	font-size: $firstFontSize;
+}

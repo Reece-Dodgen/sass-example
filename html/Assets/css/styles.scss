@@ -1,0 +1,34 @@
+// ADDING VARIABLES
+$primaryColor: #CA3C25;
+$primaryBackgroundColor: #1D1A05;
+$primaryFontSize: 14px;
+$secondColor: #FCBA04;
+$thirdColor: #EEEBD3;
+$secondFontSize: 50px;
+$thirdFontSize: 30px;
+$fourthColor: #A50104;
+$fourthFontSize: 25px;
+// BODY
+body{
+	background-color: $primaryBackgroundColor;
+}
+// HEADING1
+h1{
+	color: $primaryColor;
+	font-size: $secondFontSize;
+}
+// HEADING2
+h2{
+	color: $fourthColor;
+	font-size: $thirdColor;
+}
+// PARAGRAPH
+p{
+	color: $thirdColor;
+	font-size: $primaryColor;
+}
+// ORDERED LIST
+ol{
+	color: $secondColor;
+	font-size: $fourthFontSize;
+}

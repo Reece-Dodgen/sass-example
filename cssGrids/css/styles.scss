@@ -1,0 +1,72 @@
+// ADDING VARIABLES
+$mainPadding: 50px;
+$secondPadding: 40px;
+$mainGridgap: 50px;
+$secondGridgap: 60px;
+$mainTextAlign: center;
+$mainDisplay: grid;
+$secondDisplay: inline-flex;
+$mainBorder: 2px;
+// STYLING WRAPPER
+.wrapper{
+  border: $mainBorder solid;
+  padding: $mainPadding;
+  background-color: maroon;
+  color: white;
+}
+// STYLING THE CONTAINER
+.container{
+  display: $mainDisplay;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: $mainGridgap;
+  border: $mainBorder solid;
+  padding: $secondPadding;
+}
+// STYLE LINK
+.link{
+  border: $mainBorder solid;
+  text-align: $mainTextAlign;
+}
+// STYLING SECTION
+.section2{
+  display: $mainDisplay;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: $secondGridgap;
+  padding: $mainPadding;
+}
+// PTAG1
+.para1{
+  border: $mainBorder solid;
+  padding: $mainGridgap;
+  text-align: $mainTextAlign;
+}
+// IMAGE TAG
+.image1{
+  border: $mainBorder solid;
+  padding: $mainPadding;
+  text-align: $mainTextAlign;
+}
+// SECTION 3
+.section3{
+  display: $mainDisplay;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: $mainGridgap;
+  padding: $mainPadding;
+}
+// IMAGE TAG 2
+.image2{
+  border: $mainBorder solid;
+  text-align: $mainTextAlign;
+}
+// SECTION 2
+.section4{
+  display: $secondDisplay;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: $mainGridgap;
+  padding: $mainPadding;
+  border: $mainBorder solid;
+}

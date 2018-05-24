@@ -1,0 +1,13 @@
+// ADDING VARIABLES
+$primaryColor: #590004;
+$primaryBackgroundColor: #D2BBA0;
+$primaryFontSize: 14px;
+$secondColor: #FCBA04;
+$thirdColor: #EEEBD3;
+
+body{
+	background-color: $primaryBackgroundColor;
+}
+h1{
+	color: $primaryColor;
+}

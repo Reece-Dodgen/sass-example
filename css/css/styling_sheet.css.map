@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAWA,IAAI;EACH,gBAAgB,EAXK,OAAO;;AAc7B,EAAE;EACD,KAAK,EAbQ,OAAO;;AAgBrB,EAAE;EACD,KAAK,EAhBO,OAAO;;AAmBpB,EAAE;EACD,KAAK,EAnBQ,OAAO;;AAsBrB,EAAE;EACD,KAAK,EAtBO,OAAO;;AAyBpB,EAAE;EACD,KAAK,EAzBO,OAAO;;AA4BpB,CAAC;EACA,KAAK,EAlCS,OAAO;EAmCrB,SAAS,EA7BM,IAAI",
+"sources": ["styles.scss"],
+"names": [],
+"file": "styling_sheet.css"
+}
